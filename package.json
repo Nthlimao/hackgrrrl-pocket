@@ -1,15 +1,18 @@
 {
-  "name": "hackgrrrl-pocket",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "next": "10.2.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  }
+    "name": "hackgrrrl-pocket",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start"
+    },
+    "dependencies": {
+        "@apollo/client": "^3.3.16",
+        "graphql": "^15.5.0",
+        "next": "10.2.0",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "styled-components": "^5.2.3"
+    }
 }
