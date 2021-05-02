@@ -5,7 +5,15 @@ import InputComponent, {
     InputStyles,
 } from "./input.styles";
 
-const Input = ({ icon, label, id, name, type, placeholder }) => {
+const Input = ({
+    icon,
+    label,
+    id,
+    name,
+    type,
+    placeholder,
+    onChange = () => {},
+}) => {
     return (
         <InputComponent>
             {label && <InputLabel>{label}</InputLabel>}
@@ -16,6 +24,7 @@ const Input = ({ icon, label, id, name, type, placeholder }) => {
                     type={type}
                     name={name}
                     placeholder={placeholder}
+                    onChange={onChange}
                 />
             </InputGroup>
         </InputComponent>

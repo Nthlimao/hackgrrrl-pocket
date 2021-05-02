@@ -47,7 +47,7 @@ export const LogoPage = styled.a`
 export const ImageStyles = styled.img`
     position: relative;
     display: block;
-    max-width: 500px;
+    max-width: 470px;
     width: 100%;
     height: auto;
     z-index: 1;
@@ -74,7 +74,10 @@ export const FormTitle = styled.h2`
 `;
 
 export const FormSubtitle = styled.p`
-    color: ${(props) => props.theme.colorNeutralDark};
+    color: ${(props) =>
+        props?.colorName
+            ? props.theme[props.colorName]
+            : props.theme.colorNeutralDark};
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;

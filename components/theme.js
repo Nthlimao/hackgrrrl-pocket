@@ -10,6 +10,7 @@ export default {
     colorNeutralLight: "#E0E0E0",
     colorNeutralLightest: "#F2F2F2",
     colorNeutralWhite: "#FFFFFF",
+    colorNegative: "#EB5757",
     fontFamilyGlobal: "'Nunito Sans', sans-serif",
     fontFamilyHighlight: "'Baloo 2', cursive",
 };

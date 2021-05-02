@@ -85,7 +85,10 @@ export const FormTitle = styled.h2`
 `;
 
 export const FormSubtitle = styled.p`
-    color: ${(props) => props.theme.colorNeutralDark};
+    color: ${(props) =>
+        props?.colorName
+            ? props.theme[props.colorName]
+            : props.theme.colorNeutralDark};
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
