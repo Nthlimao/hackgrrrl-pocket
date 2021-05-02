@@ -1,0 +1,15 @@
+export default {
+    colorBrandPure: "#F24141",
+    colorBrandLight: "#F26D6D",
+    colorHighlightPure: "#5A7302",
+    colorHighlightLight: "#A0A603",
+    colorNeutralBlack: "#333333",
+    colorNeutralDarkest: "#4F4F4F",
+    colorNeutralDark: "#828282",
+    colorNeutralMedium: "#BDBDBD",
+    colorNeutralLight: "#E0E0E0",
+    colorNeutralLightest: "#F2F2F2",
+    colorNeutralWhite: "#FFFFFF",
+    fontFamilyGlobal: "'Nunito Sans', sans-serif",
+    fontFamilyHighlight: "'Baloo 2', cursive",
+};
