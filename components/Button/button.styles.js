@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const ButtonComponent = styled.button`
     display: block;
-    width: 100%;
+    width: ${(props) => (props?.width ? props.width : "100%")};
     height: 48px;
     padding: 12px 12px;
     text-align: center;

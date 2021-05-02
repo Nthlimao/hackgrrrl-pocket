@@ -18,7 +18,7 @@ export const NavbarLinkPocket = styled.a`
     display: flex;
     align-items: center;
     img {
-        margin-top: 20px;
+        margin-top: 18px;
         width: auto;
         height: 48px;
     }
