@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Link from "next/link";
+
 import { useLogin } from "../../services/login/login.hooks";
 
 import Input from "../../components/Input";
@@ -40,7 +42,7 @@ const EntrarPage = () => {
             const { data } = await submitLogin({ variables: values });
 
             if (data) {
-                sessionStorage.setItem("pocket-token", data.token);
+                localStorage.setItem("pocket-token", data.token);
                 // REDIRECIONAR
             }
 
@@ -57,9 +59,11 @@ const EntrarPage = () => {
     return (
         <PageEntrar>
             <ColumnLeft>
-                <LogoPage>
-                    <img src="/images/logo.png" alt="" />
-                </LogoPage>
+                <Link href="/">
+                    <LogoPage>
+                        <img src="/images/logo.png" alt="" />
+                    </LogoPage>
+                </Link>
                 <FormEntrar onSubmit={onSubmit}>
                     <FormTitle>Login</FormTitle>
                     <FormSubtitle>Bem-vindo de volta ;)</FormSubtitle>
@@ -95,7 +99,10 @@ const EntrarPage = () => {
                             Entrar
                         </Button>
                         <FormFooter>
-                            Ainda não tem Pocket? <a href="">Cadastre-se</a>
+                            Ainda não tem Pocket?{" "}
+                            <Link href="/registrar">
+                                <a>Cadastre-se</a>
+                            </Link>
                         </FormFooter>
                     </div>
                 </FormEntrar>

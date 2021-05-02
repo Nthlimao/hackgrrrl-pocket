@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import Link from "next/link";
+
 import { useUser } from "../../services/user/user.hooks";
 
 import Input from "../../components/Input";
@@ -61,9 +63,11 @@ const RegistrarPage = () => {
     return (
         <PageRegistrar>
             <ColumnLeft>
-                <LogoPageRegistrar>
-                    <img src="/images/logo.png" alt="" />
-                </LogoPageRegistrar>
+                <Link href="/">
+                    <LogoPageRegistrar>
+                        <img src="/images/logo.png" alt="" />
+                    </LogoPageRegistrar>
+                </Link>
                 <ImageStyles src="/images/login-mobile.png" alt="" />
             </ColumnLeft>
             <ColumnRight>
@@ -122,7 +126,10 @@ const RegistrarPage = () => {
                             Criar conta
                         </Button>
                         <FormFooter>
-                            Já tem Pocket? <a href="">Faça login</a>
+                            Já tem Pocket?{" "}
+                            <Link href="/entrar">
+                                <a>Faça login</a>
+                            </Link>
                         </FormFooter>
                     </div>
                 </FormRegistrar>

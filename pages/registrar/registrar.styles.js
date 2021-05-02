@@ -38,6 +38,8 @@ export const LogoPageRegistrar = styled.a`
     position: absolute;
     top: 48px;
     left: 48px;
+    cursor: pointer;
+    z-index: 9;
     img {
         width: auto;
         height: 48px;

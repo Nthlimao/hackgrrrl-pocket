@@ -1,10 +1,47 @@
-export default function Home() {
+import React from "react";
+import Link from "next/link";
+
+import Navbar from "../components/Navbar";
+
+import HomePage, {
+    HomeInner,
+    HomeBanner,
+    BannerContent,
+    BannerTitle,
+    BannerSubtitle,
+    CallToAction,
+} from "./home.styles";
+
+const PageHome = () => {
     return (
-        <div>
-            HTML AQUI Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-            Soluta optio vel id blanditiis, animi, aliquid iure aspernatur,
-            porro itaque mollitia necessitatibus. Commodi temporibus in,
-            inventore
-        </div>
+        <HomePage>
+            <Navbar />
+            <HomeInner>
+                <div className="container">
+                    <HomeBanner>
+                        <BannerContent>
+                            <BannerTitle>
+                                Ganhe <span>cashback</span> respondendo{" "}
+                                <span>perguntas</span>
+                            </BannerTitle>
+                            <BannerSubtitle>
+                                Responda perguntas rápidas sobre{" "}
+                                <strong>propagandas</strong>, ajude a
+                                publicidade e seja pago por isso!{" "}
+                                <strong>É rápido e fácil.</strong>
+                            </BannerSubtitle>
+                            <Link href="/registrar">
+                                <CallToAction>Cadastre-se agora</CallToAction>
+                            </Link>
+                        </BannerContent>
+                        <div>
+                            <img src="/images/home-image.png" alt="" />
+                        </div>
+                    </HomeBanner>
+                </div>
+            </HomeInner>
+        </HomePage>
     );
-}
+};
+
+export default PageHome;

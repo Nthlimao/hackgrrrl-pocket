@@ -1,6 +1,7 @@
 export default {
     colorBrandPure: "#F24141",
     colorBrandLight: "#F26D6D",
+    colorBrandDark: "#C83636",
     colorHighlightPure: "#5A7302",
     colorHighlightLight: "#A0A603",
     colorNeutralBlack: "#333333",

@@ -38,6 +38,7 @@ export const LogoPage = styled.a`
     position: absolute;
     top: 48px;
     left: 48px;
+    cursor: pointer;
     img {
         width: auto;
         height: 48px;
