@@ -1,30 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Sobre a Pocket
 
-## Getting Started
+Ganhe **cashback** respondendo **perguntas**.
+Responda perguntas rápidas sobre propagandas, ajude a publicidade e seja pago por isso! É rápido e fácil. ✨💰
 
-First, run the development server:
+**#TeamWatermelon🍉**
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+[![Pocket](https://lh3.googleusercontent.com/fife/ABSRlIpC6lor2tYlmtnwMMHtbIY_UksgfKubDhroCep5EZCwkmYryj5eAryah50PzGg98-MtdbVpo8gdxLIfeOcdIP59T7KLtKeere7XSnAPGF2DIr9G8gbcgLe9Fj0gWwmWdQWGM2DW-i9RqoyQUs8s0bPCEvwNhE5yzperJ_U_I0kPP92RyojbqQmGNGkwoo1fDzbN0woVRrCrDHSk8xc-B3U0Sc4hZDKjEB7loMddSVDjGglVZreeS-0Px8b7_DI2zFo-LU-Yw3msFgQwMgHFFdiSbV2CKKBykCFkQ8BOXWQQIgp3pd8dTvSDfF8uc7FcHA8cIg2V6lma5oEmYCuCk84bitGWpeEQ6rWyChyia9j2qWpIJ4zYyVNa-M3RCxbb_xgO4SHc7tHzN7IRF0TBRwKnEBU5oRoOb38k0AtQSHpAgxdrJyLi9xqqq3iISM_kq__psvzX3AF4E4whacoihx8zLLXyY-u5F_kLKEtcrZ_jK2dJ4g_Faq2EnVbS6u3H31WPFL57nAmmtfB5Ig3nzhrTyPqq42i7FQ8PEmD2WkXabeoGzc0Oi3lsJ9JdzNqrtNI7YwNq5DKJkcwXw8s_8cG-LU3UwxN0WGMdjv4mdi8ZHAmnC3ts0CWWg6zQSPExX3RICgzxvUHJ1jOvTcSYENafgADPoEodYUYTT0L1MMDxQ12wH74A9gVwJFygtDVPbo6ZJZw15pCeqJrVYrHc2DRJvsgtJicBAQ=w1880-h970-ft)](https://hackgrrrl-pocket.herokuapp.com)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👩🏻‍💻 Desenvolvedoras
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+-   [Nathalia Lima](https://github.com/Nthlimao) 🍋
+-   [Maria Victória](https://github.com/vihhllopes) ✨
 
-## Learn More
+## 🏆 Objetivo e Motivações
 
-To learn more about Next.js, take a look at the following resources:
+🍋 Aprimorar meus conhecimentos em React utilizando o Framework Next.js
+✨ Aprimorar meu conhecimentos em HTML, CSS e Javascript.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Que tecnologias vocês usaram no hackathon?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+-   Javascript
+-   React
+-   Next.js
+-   GraphQL
+-   Styled-Components
+-   HTML
+-   CSS
+-   Typescript
 
-## Deploy on Vercel
+## Por que vocês escolheram essas tecnologias?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🍋✨ Por já ter praticidade com elas, pois já faz parte do nosso dia a dia.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Qual foi a maior desafio (da parte de desenvolvimento) durante o hackathon? Como vocês resolveram?
+
+🍋 O maior desafio foi criar a aplicação do zero, enfrentando um pouco de dificuldades nas configurações, mas conseguindo resolver tudo.
+✨ Criação de várias telas em pouco tempo.
+
+## Qual foi o maior aprendizado (ou uma parte do código que vocês achem massa e estão orgulhosas)?
+
+🍋 Acabei praticando mais a parte de Design/UX nos ajustes da Iterface e fiquei bastante feliz com o resultado.
+✨ Mexer em imagens e cores na criação das páginas.
+
+## Se vocês fossem participar de um hackathon semana que vem, fariam algo de diferente com relação às escolhas das tecnologias utilizadas?
+
+🍋 Acho que continuaria utilizando as mesmas tecnologias para ter a oportunidade de aprofundar mais nelas.
+✨ Em outro hackathon eu espero já ter conhecimento de outras linguagens de programação para desenvolver melhor.
